@@ -2,7 +2,7 @@ locals {
   port_http  = 80
   port_https = 443
   port_mysql = 3306
-  port_ssh   = 23
+  port_ssh   = 22
 }
 
 data "aws_ami" "ubuntu" {
